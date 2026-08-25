@@ -19,7 +19,7 @@
     
     
       
-        <title>Model czlowieka wladzy - Drobnoustrój</title>
+        <title>Komentowanie i poroponowanie zmian - Drobnoustrój</title>
       
     
     
@@ -59,6 +59,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#komentowanie-i-poroponowanie-zmian" class="md-skip">
+          Przejdź do treści
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -91,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Model czlowieka wladzy
+              Komentowanie i poroponowanie zmian
             
           </span>
         </div>
@@ -333,6 +338,38 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Spis treści
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#zakadanie-konta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zakładanie konta
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zgaszanie-problemu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zgłaszanie problemu
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -349,9 +386,87 @@
 
 
 
-  <h1>Model czlowieka wladzy</h1>
-
-
+<h1 id="komentowanie-i-poroponowanie-zmian">Komentowanie i poroponowanie zmian</h1>
+<p>Nie jestem specjalistą w temacie, a w wielu miejscach nawet wprost proszę o kontakt, jeżeli ktoś portrafi odnieść się do moich wątpliwości, zatem pozwolę sobie opisać sposób w jaki to można zrobić. Generalnie zakładam, że wszystko to może zostać zrealizowane przez GitHuba.</p>
+<details class="abstract" open="open">
+<summary>Dla obeznanych z GitHubem</summary>
+<p>W skrócie zasady są takie:</p>
+<ol>
+<li>Przewiduję raczej jako Issue (nazywam to wszędzie potem <em>zgłoszeniem</em>), ale w ostateczności może być i "Pull Request". Chociaż w takim wypadku raczej lepiej by było i tak utworzyć issue, by osoby mniej obeznane wiedziały, że coś się w temacie dzieje.</li>
+<li>Bardzo proszę o sprawdzanie tego, co już wisi, żeby nie dublować tematów (chociaż nie będzie to tragedia).</li>
+<li>W opisie bym prosił o podanie, której strony dotyczy zgłoszenie. Niżej jest sekcja "Jak znaleźć adres strony?" - tam jest skrin, który chyba wszystko tłumaczy, o co mi chodzi.</li>
+<li>Zgłoszenia w miarę możliwości po polsku, żeby wszyscy rozumieli. Jakby ktoś umiał słabo polski (w sumie wtedy pytanie, jakim cudem to rozumie xd), to wtedy można też w innym języku, to spróbujemy przetłumaczyć.</li>
+</ol>
+</details>
+<p>Sam GitHub jest przede wszystkim platformą dla programistów i służy do przechowywania i synchronizacji pracy nad kodem. Nie mniej jednak ostatecznie zdecywoałem się na tą platformę, ponieważ tutaj najłatwiej mogę udostępnić teksty jako stronę internetową, mając od razu zapewnione możliwości komentowania i proponowania zmian w tekstach przez inne osoby.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Chciałbym, żeby możliwość interakcji ze mną była możliwa dla jak najszerszej grupy odbiorców - nawet osób tzw. "nietechnicznych". Pewne kwestie wydają się mi (i zapewne nie tylko mi) oczywiste, ale wolę napisać więcej niż mniej. Dlatego opis ten jest bardzo szczegółowy i rozbudowany. Na początku rozdziałów dodałem wstawkę w sekcjach "Abstract".</p>
+</div>
+<h2 id="zakadanie-konta">Zakładanie konta</h2>
+<div class="admonition abstract">
+<p class="admonition-title">Abstract</p>
+<p>Założenie konta na GitHubie jest darmowe i wymaga właściwie tylko adresu mailowego do podania.</p>
+</div>
+<p>Na początku należy otworzyć stronę rejestracji GitHub: <a href="https://github.com/signup">https://github.com/signup</a>.</p>
+<p><img alt="Zrzut ekranu rejestracji na GitHubie - błąd wyświetlania obrazka" src="../img/kom-dod/01-rejestracja.png" /></p>
+<p>Na stronie tej należy kolejno podać:</p>
+<ul>
+<li>swój adres mailowy</li>
+<li>wymyślone przez siebie hasło</li>
+<li>wymyśloną przez siebie nazwę użytkownika - musi być różna od wszystkich dotychczasowych użytkowników portalu, więc znalezienie odpowiedniej nazwy może zająć nieco czasu. Co więcej, na dzień dzisiejszy w nazwach dopuszczalne są jedynie znaki alfabetu łacińskiego (nie można użyć znaków diakrytycznych np. ą, ę itd.), liczby oraz pauzy/minusy, z tymże te ostatnie nie mogą występować ani na pierwszym, ani na ostatnim miejscu nazwy.</li>
+<li>Kraj - zapewne Polska (Poland)</li>
+</ul>
+<p>Dwa okienka (checkboxy) na dole można w razie wątpliwości zostawić odznaczone, szczególnie jeżeli nie planuje się używać konta GitHub do niczego innego.</p>
+<p>Po kliknięciu przycisku "Create account" powinien pojawić się ekran z polem do wpisania kodu weryfikacyjnego. System powinien wysłać wiadomość z nim na podany adres mailowy, choć o może potrwać do kilku minut. Na dzień dzisiejszy składa się on z 6-ciu cyfr. Kod ten należy w prowadzić do tego pola i ewentualnie kliknąć klawisz "enter".</p>
+<details class="failure" open="open">
+<summary>Co gdy kod nie przyjdzie na maila?</summary>
+<p>Po chwili od pokazania się ekranu z polem do wpisania kodu weryfikacyjnego (chyba koło minuty) na stronie powinien się pojawić pod polem do wpisania kodu weryfikacyjnego przycisk z napisem np. "Resend code". Warto go wtedy kliknąć, bo to powinno wywołać ponowne wysłanie kodu. Gdyby i to nie pomogło, to warto spróbować zrobić wszystko od początku np. następnego dnia.</p>
+</details>
+<p>Po pomyślnym logowaniu powinien pojawić się ekran logowania.</p>
+<p><img alt="Ekran logowania GitHub - błąd wyświetlania obrazka" src="../img/kom-dod/02-logowanie.png" /></p>
+<p>Tam należy wprowadzić podane wcześniej: adres mailowy i hasło. Po kliknięciu przycisku "Sign in" powinna zostać wyświetlona strona domowa GitHuba.</p>
+<p><img alt="Strona domowa GitHuba - błąd wyświetlania obrazka" src="../img/kom-dod/03-po-logowaniu.png" /></p>
+<h2 id="zgaszanie-problemu">Zgłaszanie problemu</h2>
+<p>W związku z tym, że nie zakładam szybkiego wzrostu zainteresowania blogiem, wydaje mi się, że najwygodniejszą formą komunikacji będą "issues" (zwanych dalej <em>zgłoszeniami</em>). Sama koncepcja oryginalnie zakłada możliwość zgłaszania problemów dotyczących programów bez odnoszenia się do kodu źródłowego, w związku z czym sprowadza się właściwie do wpisania pojedynczego fragmentu tekstu.</p>
+<p>Aby to zrobić należy wejść na stronę repozytorium GitHub projektu: <a href="https://github.com/kodziarz/drobnoustroj">https://github.com/kodziarz/drobnoustroj</a>.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>W tym miejscu znajdują się pliki źródłowe projektu, które można swobodnie przeglądać. Część z nich ma znaczenie czysto techniczne (np. konfiguracja strony w pliku mkdocs.yml), jednak w folderze "docs" znajdują się już pliki zawierające właściwi tekst bloga.</p>
+</div>
+<p><img alt="Strona główna repozytorium bloga na GitHub - błąd wyświetlania obrazka" src="../img/kom-dod/04-repo.png" /></p>
+<p>Aby dodać zgłoszenie należy kliknąć zakładkę "Issues" na w górnej części ekranu.</p>
+<p><img alt="Położenie zakładki &quot;Issues&quot; - błąd wyświetlania obrazka" src="../img/kom-dod/05-wejscie-do-issues.png" /></p>
+<p>Wtedy wyświetli się strona zawierająca listę dochczasowych zgłoszeń. Na obrazku w tym miejscu widnieje napis "No results", poniważ wtedy nie było jeszcze żadnych zgłoszeń. Na tym etapie warto zweryfikować, czy zaganienie, które zamierza się zgłosić, nie zostało już przez kogoś zgłoszone - wówczas nie ma potrzeby tego robić.</p>
+<p><img alt="Strona główna zgłoszeń - błąd wyświetlania obrazka" src="../img/kom-dod/06-issues.png" /></p>
+<p>Dodanie nowego zgłoszenia rozposzyna się od kliknięcia przycisku "New issue". Na dzień dzisiejszy jest to zielony przycisk znajdujący się w prawym górnym rogu.</p>
+<p><img alt="Położenie przycisku &quot;New issue&quot; - błąd wyświetlania obrazka" src="../img/kom-dod/07-issues.png" /></p>
+<p>Po jego kliknięciu pokaże się strona tworzenia zgłoszenia.</p>
+<p><img alt="Strona tworzenia zgłoszenia - błąd wyświetlania obrazka" src="../img/kom-dod/09-tworzenie-issue.png" /></p>
+<p>Na stronie tej należy wprowadzić:</p>
+<ul>
+<li>tytuł zgłoszenia</li>
+<li>opis zgłoszenia</li>
+</ul>
+<p>W przypadku opisu warto w pierwszej linii napisać adres strony, której dotyczy zgłoszenie.</p>
+<details class="question" open="open">
+<summary>Jak znaleźć adres strony?</summary>
+<p>Najłatwiej w nowej karcie otworzyć bloga (pod adresem: <a href="https://kodziarz.github.io/drobnoustroj/">https://kodziarz.github.io/drobnoustroj</a>) i tam znaleźć stronę, do której tekstu chce się odnieść.</p>
+<div class="admonition tip">
+<p class="admonition-title">Jak otworzyć nową kartę?</p>
+<p>Najłatwiej skrótem klawiszowym "ctrl" + t (przytrzymując klawisz "ctrl - lewy-dolny róg klawiatury - kliknąc klawisz t). Po znalezieniu adresu można wrócić do tworzenia zgłoszenia za pomocą skrótu "ctrl" + w.</p>
+</div>
+<p>Po otwarciu tej strony na pasku adresu przeglądarki będzie widniał adres tej strony. Do opisu zgoszenia wystarczy wprowadzić wszystko, co występuje po "https://kodziarz.github.io/drobnoustroj" (zaznaczone na obrazku).</p>
+<p><img alt="Adres strony - błąd wyświetlania obrazka" src="../img/kom-dod/08-sciezka-dokumentu.png" /></p>
+</details>
+<p>Po wprowadzeniu tych danych wystarczy kliknąć przycisk "Create". Na dzień dzisiejszy znajduje się on pod polem tekstowym na opis zgłoszenia, z prawej strony i jest zielony.</p>
+<p><img alt="Położenie przycisku tworzenia zgłoszenia - błąd wyświetlania obrazka" src="../img/kom-dod/10-tworzenie-issue.png" /></p>
+<p>Po wszystkim powinna zostać wyświetlona strona zgłoszenia jak na obrazku poniżej. Oznacza to, że zgłoszenie zostało pomyślnie dodane.</p>
+<p><img alt="Strona utworzonego zgłoszenia - błąd wyświetlania obrazka" src="../img/kom-dod/11-utworzone-issue.png" /></p>
+<details class="bug">
+<summary>TODO</summary>
+<p>Zakładanie konta pocztowego??</p>
+</details>
 
 
 
