@@ -8,11 +8,11 @@ W mojej opinii debata na temat ustroju wymaga ustrukturyzowania. Poniżej opisuj
 
 Bardzo łatwo jest się w rozważaniach systemowych postawić na miejscu osób sprawujących władzę. Należy jednak pamiętać, że zawsze większość społeczeństwa nie ma tak dużego wpływu na działania państwa, a [model człowieka władzy](#model-człowieka-władzy) każe zakładać, że będą oni dążyli do poszerzania swojej władzy kosztem obywateli.
 
-Nie oznacza to, że perspektywa człowieka władzy powinna być pominięta - jest ona bardzo ważna choćby z uwagi na problem [paraliży decyzyjnych](#zasada-unikania-paraliży-decyzyjnych). Oznacza to tylko, że prespektywa zwykłego obywatela nie może zostać pomienięta
+Nie oznacza to, że perspektywa człowieka władzy powinna być pominięta - jest ona bardzo ważna choćby z uwagi na problem [paraliży decyzyjnych](#zasada-unikania-paraliży-decyzyjnych). Oznacza to tylko, że prespektywa zwykłego obywatela nie może zostać pomienięta.
 
 ### Zasada niepełnej szczelności systemu
 
-!!! info
+!!! note
     Zagadnienie jest dokładniej opisane i uzasadniowe w artukule.
 
 ??? bug "TODO"
@@ -31,7 +31,7 @@ W tej dziedzinie - w przeciwieństwie np. do fizyki - niestety nie ma możliwoś
 
 Natomiast jeżeli ktoś by miał pomysł, jak jeszcze można by prowadzić argumentację (mam na myśli uzasadnienie opinii, a nie tylko teorię), bardzo proszę o danie znać.
 
-??? bud "TODO"
+??? bug "TODO"
     Udostępnić gdzieś jakiegoś maila czy coś.
 
 

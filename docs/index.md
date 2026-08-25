@@ -17,8 +17,12 @@ Osobiście jestem ścisłowcem i w związku z tym te koncepcje, które są bardz
 
 Służą one temu, by osoby też wywodzące się ze świata nauk ścisłych mogły nieco szybciej zrozumieć, o co chodzi.
 
-??? bug "TODO"
-    Sposób, jak można komentować / proponować zmiany
+<!-- Ponadto zachęcam do dyskusji, którą - jak na razie - proponuję prowadzić na GitHubie. Sposób komentowania treści został opisany na [stronie komentarzy](./komentowanie-i-dodawanie-zmian.md).
+
+Z kwestii technicznych zaznaczam też dla pewności: wszystkie fragmenty tekstu na niebiesko/fioletowo (sory, jestem daltonistą xd) są linkami i kliknięcie w nie przenosi na inną stronę.
+
+!!! tip "Od czego zacząć?"
+    Z lewej strony są zakładki - tam można sobie zobaczyć, czy coś konkretnego nie jest wyjątkowo interesujące. Jeżeli ktoś jednak ma taki charakter jak ja, czyli lubi czytać od deski do deski, to polecam zajrzeć pod zakładkę "Spis chronologiczny" - tam dodaję wszystkie artykuły w takiej kolejności, że odnoszą się one (prawie) tylko do poprzednich. -->
 
 
 <!--
