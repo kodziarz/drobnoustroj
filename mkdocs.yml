@@ -3,12 +3,16 @@ site_name: Drobnoustrój
 theme:
   name: material
   language: pl
+  features:
+    - content.footnote.tooltips
 
 nav:
   - Co tutaj się dzieje?: index.md
+  - Spis chronologiczny: spis-chronologiczny.md
   - Cybernetyka polityczna:
       - Ramy debaty: ramy-debaty.md
 
 markdown_extensions:
   - admonition
   - pymdownx.details
+  - footnotes
