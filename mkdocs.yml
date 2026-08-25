@@ -11,6 +11,7 @@ nav:
   - Spis chronologiczny: spis-chronologiczny.md
   - Cybernetyka polityczna:
       - Ramy debaty: ramy-debaty.md
+      - O wpływie modelu armii na prawa obywatelskie: cybernetyka/o-wplywie-modelu-armii-na-prawa-obywatelskie.md
 
 markdown_extensions:
   - admonition
